@@ -1,0 +1,13 @@
+
+header {
+    z-index: 6;
+}
+
+.carousel-item {
+    height: auto;
+    
+}
+
+.images {
+    height: 32rem;
+}

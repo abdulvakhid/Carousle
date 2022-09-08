@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    
+    <header class="py-2 bg-dark position-fixed w-100 top-0">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md text-light">
+                <a class="navbar-brand text-light" href="#">Carousel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation"  style="border: 1px solid gray; color: gray;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-muted">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+                    <input class="form-control me-2" type="search"  name="Search" placeholder="Search" aria-label="Search" required>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+</nav>
+</div>
+</header>
+<br>
+<main>
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <svg class="bd-placeholder-img images" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777"/>
+                    </svg>
+                    <div class="carousel-caption d-md-block text-start pt-5 pb-5">
+                        <h1 class="text-white">Example headline.</h1>
+                        <p class="text-white">Some representative placeholder content for the first slide of the carousel.</p>
+                        <button type="button" class="btn btn-primary fw-bold text-white">Sign up today</button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <svg class="bd-placeholder-img images" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777"/>
+                    </svg>
+                    
+                    <div class="carousel-caption d-md-block text-center pt-5 pb-5">
+                        <h1 class="text-white">Another example headline.</h1>
+                        <p class="text-white">Some representative placeholder content for the second slide of the carousel.</p>
+                        <button type="button" class="btn btn-primary fw-bold text-white">Learn more</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img images" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777"/>
+                    </svg>
+                    
+                    <div class="carousel-caption d-md-block text-end pt-5 pb-5">
+                        <h1 class="text-white">One more for good measure.</h1>
+                        <p class="text-white">Some representative placeholder content for the first slide of the carousel.</p>
+                        <button type="button" class="btn btn-primary fw-bold text-white">Browse Gallery</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+    </section>
+    <section class="pt-5">
+        <div class="container">
+            <ul class="row justify-content-center text-center mt-5 mb-5">
+                <li class="col-12 col-lg-3 list-unstyled m-4">
+                    <img src="https://via.placeholder.com/140" class="rounded-pill" alt="img">
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                        ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                        Praesent commodo cursus magna.</p>
+                        <button type="button" class="btn btn-secondary">View details >></button>
+                    </li>
+                    <li class="col-12 col-lg-3 list-unstyled m-4">
+                        <img src="https://via.placeholder.com/140" class="rounded-pill" alt="img">
+                        <h2>Heading</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                            ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                            Praesent commodo cursus magna.</p>
+                            <button type="button" class="btn btn-secondary">View details >></button>
+                        </li>
+                        <li class="col-12 col-lg-3 list-unstyled m-4">
+                            <img src="https://via.placeholder.com/140" class="rounded-pill" alt="img">
+                            <h2>Heading</h2>
+                            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                                ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                Praesent commodo cursus magna.</p>
+                                <button type="button" class="btn btn-secondary">View details >></button>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row flex-column justify-content-center text-center mt-5 mb-5 flex-lg-row justify-content-lg-between text-lg-start align-items-center ">
+                            <div class="col">
+                                <h2 class="fs-1 ">First featurette heading. <span class="text-secondary">It'll blow your mind. </span> </h2>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                            </div>
+                            <div class="col">
+                                <img src="https://picsum.photos/id/22/500/500" class="img-fluid" alt="img">
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row flex-column-reverse justify-content-center text-center mt-5 mb-5 flex-lg-row justify-content-lg-between text-lg-start align-items-center ">
+                            <div class="col">
+                                <img src="https://picsum.photos/id/32/500/500" class="img-fluid" alt="img">
+                            </div>
+                            <div class="col">
+                                <h2 class="fs-1">Oh yeah, it's that good. <span class=" text-secondary">See for yourself.</span> </h2>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row flex-column justify-content-center text-center mt-5 mb-5 flex-lg-row justify-content-lg-between text-lg-start align-items-center ">
+                            <div class="col">
+                                <h2 class="fs-1">And lastly, this one. <span class=" text-secondary"> Checkmate.</span></h2>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                            </div>
+                            <div class="col">
+                                <img src="https://picsum.photos/id/227/500/500" class="img-fluid" alt="img">
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </section>
+            </main>
+            
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center col-md-6 text-md-start">
+                            <p>© 2017-2018 Company, Inc. &nbsp;&nbsp; <a class="btn-link" href="#">Privacy</a>&nbsp;&nbsp;&nbsp;<a class="btn-link" href="#">Terms</a></p>
+                        </div>
+                        <div class="col-12 text-center col-md-6 text-md-end">
+                            <a class="btn-link" href="#">Back to top</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <script src="./js/bootstrap.bundle.min.js"></script>
+        </body>
+        
+        </html>
